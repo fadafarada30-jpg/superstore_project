@@ -1,4 +1,4 @@
-# 📊 Dashboard Analisis Penjualan & Performa Seller
+# Dashboard Analisis Penjualan & Performa Seller
 
 Web aplikasi analisis penjualan dengan dashboard interaktif yang membantu seller memahami performa bisnisnya — dilengkapi segmentasi pelanggan otomatis, forecasting penjualan, dan analisis dampak diskon menggunakan algoritma data science.
 
@@ -6,7 +6,7 @@ Web aplikasi analisis penjualan dengan dashboard interaktif yang membantu seller
 
 ---
 
-## 📸 Preview
+## Preview
 
 > Tambahkan screenshot dashboard di sini — lihat bagian [Cara Menambahkan Screenshot](#-cara-menambahkan-screenshot) di bawah.
 
@@ -14,22 +14,22 @@ Web aplikasi analisis penjualan dengan dashboard interaktif yang membantu seller
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 | Fitur | Deskripsi |
 |---|---|
-| 📈 **Tren & Overview** | Visualisasi tren penjualan bulanan, sales per region, komposisi kategori |
-| 🏆 **Produk Terlaris** | Ranking produk berdasarkan sales, profit, atau quantity |
-| 👥 **Segmentasi Customer** | Pengelompokan pelanggan otomatis menggunakan RFM Analysis + K-Means Clustering |
-| 🔮 **Forecasting** | Prediksi penjualan 1–6 bulan ke depan dengan Holt-Winters Exponential Smoothing |
-| 🛒 **Market Basket Analysis** | Deteksi produk yang sering dibeli bersamaan |
-| 🗺️ **Peta Sebaran** | Choropleth map sales & profit margin per state |
-| 🏷️ **Dampak Diskon** | Analisis korelasi antara diskon dan profit margin |
-| 🎛️ **Filter Interaktif** | Filter dinamis berdasarkan tanggal, region, kategori, dan segmen pelanggan |
+| **Tren & Overview** | Visualisasi tren penjualan bulanan, sales per region, komposisi kategori |
+| **Produk Terlaris** | Ranking produk berdasarkan sales, profit, atau quantity |
+| **Segmentasi Customer** | Pengelompokan pelanggan otomatis menggunakan RFM Analysis + K-Means Clustering |
+| **Forecasting** | Prediksi penjualan 1–6 bulan ke depan dengan Holt-Winters Exponential Smoothing |
+| **Market Basket Analysis** | Deteksi produk yang sering dibeli bersamaan |
+| **Peta Sebaran** | Choropleth map sales & profit margin per state |
+| **Dampak Diskon** | Analisis korelasi antara diskon dan profit margin |
+| **Filter Interaktif** | Filter dinamis berdasarkan tanggal, region, kategori, dan segmen pelanggan |
 
 ---
 
-## 🧠 Algoritma & Teknik yang Digunakan
+## Algoritma & Teknik yang Digunakan
 
 | Algoritma | Fungsi | Library |
 |---|---|---|
@@ -42,7 +42,7 @@ Web aplikasi analisis penjualan dengan dashboard interaktif yang membantu seller
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend & Dashboard:** [Streamlit](https://streamlit.io/)
 - **Data Processing:** Pandas, NumPy
@@ -52,7 +52,7 @@ Web aplikasi analisis penjualan dengan dashboard interaktif yang membantu seller
 
 ---
 
-## 📂 Struktur Project
+## Struktur Project
 
 ```
 dashboard-penjualan/
@@ -69,7 +69,7 @@ dashboard-penjualan/
 
 ---
 
-## 🚀 Cara Menjalankan di Lokal
+## Cara Menjalankan di Lokal
 
 1. **Clone repository**
    ```bash
@@ -98,7 +98,7 @@ dashboard-penjualan/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 Sumber: [Kaggle — Superstore Sales Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
@@ -106,16 +106,16 @@ Sumber: [Kaggle — Superstore Sales Dataset](https://www.kaggle.com/datasets/vi
 
 ---
 
-## 💡 Insight Utama dari Analisis
+## Insight Utama dari Analisis
 
-- 📈 Penjualan menunjukkan pola musiman yang konsisten, dengan lonjakan signifikan setiap kuartal 4 (akhir tahun)
-- 👥 Segmentasi K-Means berhasil mengidentifikasi 4 kelompok pelanggan dengan karakteristik berbeda — termasuk 8% pelanggan *High Value* yang menyumbang revenue signifikan
-- 🏷️ Ditemukan korelasi negatif sangat kuat (**r = -0.86**) antara diskon dan profit margin — diskon di atas 20% rata-rata membuat transaksi merugi
-- 🗺️ Beberapa state dengan total sales tinggi justru memiliki profit margin negatif, mengindikasikan kebijakan diskon yang perlu dievaluasi
+- Penjualan menunjukkan pola musiman yang konsisten, dengan lonjakan signifikan setiap kuartal 4 (akhir tahun)
+- Segmentasi K-Means berhasil mengidentifikasi 4 kelompok pelanggan dengan karakteristik berbeda — termasuk 8% pelanggan *High Value* yang menyumbang revenue signifikan
+- Ditemukan korelasi negatif sangat kuat (**r = -0.86**) antara diskon dan profit margin — diskon di atas 20% rata-rata membuat transaksi merugi
+- Beberapa state dengan total sales tinggi justru memiliki profit margin negatif, mengindikasikan kebijakan diskon yang perlu dievaluasi
 
 ---
 
-## 🔭 Pengembangan Selanjutnya
+## Pengembangan Selanjutnya
 
 - [ ] Autentikasi multi-seller
 - [ ] Model forecasting lanjutan (Prophet/LSTM)
@@ -124,13 +124,13 @@ Sumber: [Kaggle — Superstore Sales Dataset](https://www.kaggle.com/datasets/vi
 
 ---
 
-## 👤 Author
+## Author
 
 **Falda**
 Project ini dibuat sebagai tugas akhir mata kuliah **Algoritma & Data Science**.
 
 ---
 
-## 📄 Lisensi
+## Lisensi
 
 Project ini dibuat untuk tujuan pembelajaran/akademik.
