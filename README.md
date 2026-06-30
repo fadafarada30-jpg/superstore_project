@@ -8,9 +8,8 @@ Web aplikasi analisis penjualan dengan dashboard interaktif yang membantu seller
 
 ## Preview
 
-> Tambahkan screenshot dashboard di sini — lihat bagian [Cara Menambahkan Screenshot](#-cara-menambahkan-screenshot) di bawah.
 
-![Dashboard Preview](screenshots/overview.png)
+![Dashboard Preview](screenshots/overview.jpeg)
 
 ---
 
